@@ -3,41 +3,6 @@ id: fetch
 title: Fetch
 ---
 
-## Imported types
-
-### [Token](../common-types#token)
-
-```graphql
-type Token {
-  chainId: ChainId!
-  address: String!
-  currency: Currency!
-}
-```
-
-### [TokenAmount](../common-types#tokenamount)
-
-```graphql
-type TokenAmount {
-  token: Token!
-  amount: String! # UInt256!
-}
-```
-
-### [ChainId](../common-types#chainid)
-
-```graphql
-enum ChainId {
-  MAINNET
-  ROPSTEN
-  RINKEBY
-  GOERLI
-  KOVAN
-}
-```
-
-## Query schemas
-
 ### fetchTokenData
 
 _Fetches token data._

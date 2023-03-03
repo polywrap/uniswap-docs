@@ -1,6 +1,7 @@
 ---
 id: intro
 title: Uniswap v3 Polywrap Documentation
+sidebar_position: 0
 ---
 
 ## Overview

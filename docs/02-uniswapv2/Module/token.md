@@ -3,29 +3,6 @@ id: token
 title: Token
 ---
 
-## Imported types
-
-### [Token](../common-types#token)
-
-```graphql
-type Token {
-  chainId: ChainId!
-  address: String!
-  currency: Currency!
-}
-```
-
-### [TokenAmount](../common-types#tokenamount)
-
-```graphql
-type TokenAmount {
-  token: Token!
-  amount: String! # UInt256!
-}
-```
-
-## Query schemas
-
 ### tokenEquals
 
 _Checks if the current instance is equal to another (has an identical chainId and address)._

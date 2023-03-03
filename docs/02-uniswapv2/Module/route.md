@@ -3,20 +3,6 @@ id: route
 title: Route
 ---
 
-## Imported types
-
-### [Token](../common-types#token)
-
-```graphql
-type Token {
-  chainId: ChainId!
-  address: String!
-  currency: Currency!
-}
-```
-
-## Query schemas
-
 ### createRoute
 
 _Creates a route._

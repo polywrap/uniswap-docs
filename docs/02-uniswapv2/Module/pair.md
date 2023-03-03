@@ -3,29 +3,6 @@ id: pair
 title: Pair
 ---
 
-## Imported types
-
-### [Token](../common-types#token)
-
-```graphql
-type Token {
-  chainId: ChainId!
-  address: String!
-  currency: Currency!
-}
-```
-
-### [TokenAmount](../common-types#tokenamount)
-
-```graphql
-type TokenAmount {
-  token: Token!
-  amount: String! # UInt256!
-}
-```
-
-## Query schemas
-
 ### pairAddress
 
 _Returns address of pair liquidity token contract._

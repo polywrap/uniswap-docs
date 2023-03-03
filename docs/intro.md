@@ -7,9 +7,9 @@ sidebar_position: 0
 
 Welcome to the Uniswap Polywrap Wrapper documentation!
 
-> Checkout the Uniswap V3 wrapper documentation [here](01-uniswapv3/intro)!
+> Checkout the Uniswap V3 wrapper documentation [here](./01-uniswapv3/intro.md)!
 
-> Checkout the Uniswap V2 wrapper documentation [here](02-uniswapv2/intro)!
+> Checkout the Uniswap V2 wrapper documentation [here](./02-uniswapv2/intro.md)!
 
 > Checkout Polywrap's documentation [here](https://docs.polywrap.io)!
 

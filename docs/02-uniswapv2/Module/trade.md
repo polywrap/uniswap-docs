@@ -3,43 +3,6 @@ id: trade
 title: Trade
 ---
 
-## Imported types
-
-### [Trade](../common-types#trade)
-
-```graphql
-type Trade {
-  route: Route!
-  inputAmount: TokenAmount!
-  outputAmount: TokenAmount!
-  tradeType: TradeType!
-}
-```
-
-### [TradeOptions](../common-types#tradeoptions)
-
-```graphql
-type TradeOptions {
-  allowedSlippage: String!
-  recipient: String!
-  unixTimestamp: UInt64!
-  ttl: UInt32
-  deadline: UInt32
-  feeOnTransfer: Boolean
-}
-```
-
-### [TradeType](../common-types#tradetype)
-
-```graphql
-enum TradeType {
-  EXACT_INPUT
-  EXACT_OUTPUT
-}
-```
-
-## Query schemas
-
 ### tokenEquals
 
 _Checks if the current instance is equal to another (has an identical chainId and address)._
