@@ -14,8 +14,9 @@ Welcome to the Uniswap Polywrap Wrapper documentation!
 > Checkout Polywrap's documentation [here](https://docs.polywrap.io)!
 
 ## Deployments
-| Name                                                                            | Status   | Deployment                                      |
-|---------------------------------------------------------------------------------|----------|-------------------------------------------------|
-| [Uniswap V3 Wrapper](https://github.com/polywrap/integrations/tree/main/protocol/ethereum/uniswapv3/wrapper)          | Complete | wrap://ens/goerli/v3.uniswap.wrappers.eth       |
-| [Uniswap V2 Wrapper](https://github.com/polywrap/integrations/tree/main/protocol/ethereum/uniswapv2) | Complete | wrap://ens/goerli/v2.uniswap.wrappers.eth       |
-| [Uniswap V2 dApp](https://github.com/polywrap/integrations/tree/main/protocol/ethereum/uniswapv2)             | Complete | Live: [dApp](https://demo.uniswap.polywrap.io/) |
+| Name                                                                                                         | Status   | Deployment                                      |
+|--------------------------------------------------------------------------------------------------------------|----------|-------------------------------------------------|
+| [Uniswap V3 Wrapper](https://github.com/polywrap/integrations/tree/main/protocol/ethereum/uniswapv3/wrapper) | Complete | wrap://ens/goerli/v3.uniswap.wrappers.eth       |
+| [Uniswap V3 dApp](https://github.com/polywrap/uniswap-interface/tree/polywrap-v3)            | Complete | Live: [dApp](https://morning-night-4265.on.fleek.co/#/swap) |
+| [Uniswap V2 Wrapper](https://github.com/polywrap/integrations/tree/main/protocol/ethereum/uniswapv2)         | Complete | wrap://ens/goerli/v2.uniswap.wrappers.eth       |
+| [Uniswap V2 dApp](https://github.com/polywrap/uniswap-interface)            | Complete | Live: [dApp](https://demo.uniswap.polywrap.io/) |
